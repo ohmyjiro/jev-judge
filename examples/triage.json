@@ -1,0 +1,26 @@
+{
+  "state": {
+    "title": "A practical guide to database migration rollback",
+    "excerpt": "The article explains how to test a rollback before applying a schema migration in production."
+  },
+  "questions": {
+    "useful_for_development": {
+      "type": "noul",
+      "instructions": "Does this contain a concrete practice a software developer could use?"
+    },
+    "topic": {
+      "type": "choice",
+      "instructions": "What is the main topic?",
+      "criteria": {
+        "database": "Database design, migrations, or queries",
+        "deployment": "Releases, deployments, or infrastructure",
+        "other": "Neither topic fits"
+      }
+    },
+    "actionability": {
+      "type": "score",
+      "instructions": "How directly can the reader apply this?",
+      "criteria": ["Only a general idea", "Some practical guidance", "Concrete steps to follow"]
+    }
+  }
+}
