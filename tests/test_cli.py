@@ -2,9 +2,10 @@ import io
 import json
 import runpy
 import unittest
+from pathlib import Path
 
 
-cli = runpy.run_path("bin/jev-judge")
+cli = runpy.run_path(str(Path(__file__).resolve().parents[1] / "bin/jev-judge"))
 validate = cli["validate"]
 evaluate = cli["evaluate"]
 
